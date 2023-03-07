@@ -11,8 +11,9 @@ export default function Hero({}: Props): ReactElement {
     const [text,count]=useTypewriter({
         words:[
             "Hi, the name's Saif Ullah",
-            "Guy-who-loves-cofee.tsx",
-            "<ButLovesToCodeMore/>"
+            "<Fullstack web developer/>",
+            "<proficient in many languages and frameworks/>",
+            "<possess strong problem solving skills/>"
         ],
         loop:true,
         delaySpeed:2000
@@ -32,6 +33,7 @@ export default function Hero({}: Props): ReactElement {
                 <Link href="#education"><button className='heroButton'>Education</button></Link>
                 <Link href="#skills"><button className='heroButton'>Skills</button></Link>
                 <Link href="#projects"><button className='heroButton'>Projects</button></Link>
+                <Link href="https://docs.google.com/document/d/1k_MIxeXv1ZH0D1v1O3EpoZdBPhYC6MJ421w9SPV9syM/edit?usp=sharing"><button className='heroButton'>Resume</button></Link>
             </div>
         </div>
         </div>

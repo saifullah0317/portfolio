@@ -17,7 +17,7 @@ export default function Header({}: Props): ReactElement {
                 <SocialIcon fgColor='grey' bgColor='transparent' url="https://gitlab.com/saifullah0317" />
             </motion.div>
             <motion.div initial={{x:500,opacity:0,scale:0.5}} animate={{x:0,opacity:1,scale:1}} transition={{duration:1.5}} className='flex flex-row items-center'>
-                <SocialIcon fgColor='grey' bgColor='transparent' url="https://gitlab.com/saifullah0317" />
+                <SocialIcon className='cursor-pointer' network='email' fgColor='grey' bgColor='transparent' url='#contact'/>
             </motion.div>
         </header>
     )
