@@ -32,9 +32,9 @@ export default function Education({}: Props): ReactElement {
                     Undergraduate
                 </h4>
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>2020-2024</h2>
-                <p className='text-base'>
+                <p className='text-base ml-5 lg:ml-0 md:ml-0'>
                     <i>University of Engineering and Technology, Lahore, Pakistan.</i> <br />
-                    <a href="https://en.wikipedia.org/wiki/University_of_Engineering_and_Technology,_Lahore">https://en.wikipedia.org/wiki/University_of_Engineering_and_Technology,_Lahore</a>
+                    <a href="https://en.wikipedia.org/wiki/University_of_Engineering_and_Technology,_Lahore"><span style={{color:'#F7AB0A'}}>https://en.wikipedia.org/wiki/University_of_Engineering_and_Technology,_Lahore</span></a>
                 </p>
                 <span></span>
 
